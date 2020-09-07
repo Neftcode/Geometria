@@ -1,5 +1,8 @@
 import org.w3c.dom.ls.LSOutput;
 
 public class Interfaz {
-    LSOutput
+    @Override
+    public String toString() {
+        return "Interfaz{}";
+    }
 }
